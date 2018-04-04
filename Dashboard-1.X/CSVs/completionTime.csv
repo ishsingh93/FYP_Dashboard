@@ -1,10 +1,11 @@
-﻿Alice,65.00
+name,time
+Alice,65
 Betty,52.75
 Charles,48.25
 Dick,27.75
-Evan,49.00
-Fiona,48.50
+Evan,49
+Fiona,48.5
 Greg,35.75
 Helen,62.25
-Ivan,58.75
-Juliet,56.50
+Ivan ,58.75
+Juliet,56.5
