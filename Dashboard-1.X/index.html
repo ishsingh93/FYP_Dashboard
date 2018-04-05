@@ -60,10 +60,10 @@
       <div class="col-sm-3">
         <div class="chart-wrapper">
           <div class="chart-title">
-            Time of Completion (10 users)
+            Time of Completion (10 Users)
           </div>
           <div class="chart-stage">
-            <histogram-chart></histogram-chart>
+            <bar-chart></bar-chart>
           </div>
           <div class="chart-notes">
             This chart reflects the time taken for the students' completion of work 
@@ -73,7 +73,23 @@
     </div>
   </div>
   </div>
-
+  <div class="col-sm-9">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Number of Commits (10 Users)
+          </div>
+          <div class="chart-stage">
+            <img data-src="holder.js/100%x240/white">
+          </div>
+          <div class="chart-notes">
+            This chart reflects the number of commits made by 10 students
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="container-fluid">
     <p class="small text-muted">Built with &#9829; by <a href="https://keen.io">Keen IO</a></p>
   </div>
@@ -86,6 +102,10 @@
 
   <!-- Controllers -->
   <script src="js/controllers/MainController.js"></script>
+
+  <!-- Directives -->
+  <script src="js/directives/barChart.js"></script>
+  <script src="js/directives/pieChart.js"></script>
 
 </body>
 </html>
